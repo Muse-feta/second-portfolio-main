@@ -327,20 +327,20 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color) );
+    background:  rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     padding: 0 2rem;
-    color: black;
+    color: white;
     transform: translateY(100%);
     transition: .7s ease;
 }
 
 .portfolio-layer p{
-    color: black;
+    color: white;
 }
 
 .portfolio-box:hover  .portfolio-layer{
